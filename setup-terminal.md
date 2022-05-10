@@ -19,3 +19,13 @@
 > - show tables;
 
 
+#### Creating a database
+> - create database /database-name/
+
+#### Fundamental Datatypes with SQL we may encounter
+> - INT
+> - DECIMAL(M,N)
+> - VARCHAR(10)
+> - BLOB
+> - DATE
+> - TIMESTAMP
