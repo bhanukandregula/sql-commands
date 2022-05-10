@@ -80,4 +80,15 @@ DELETE FROM employees where emp_id=1;
 SELECT emp_name, emp_client FROM employees;
 
 -- This will display records with ORDER by condition, ascending order is the defualt one.
+-- ASC and DESC
 SELECT emp_name, emp_client FROM employees ORDER BY emp_name ASC;
+
+-- This adds limit to display number of records
+SELECT emp_name, emp_client FROM employees ORDER BY emp_name ASC LIMIT 2;
+
+-- This will fetch the records where emp_client not equals to Ford Credit
+SELECT emp_name, emp_client FROM employees WHERE emp_client <> 'Ford Credit';
+
+-- IN is as same as emp_client="Ford Credit" to fetch records where condition met
+SELECT * FROM employees WHERE emp_client IN ('Ford Credit');
+
